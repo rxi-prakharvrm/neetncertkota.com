@@ -113,6 +113,120 @@ button, i {
     color: #FF6D60;
 }
 
+/* Main Section */
+.main-section-inner-ctr {
+    height: 66.4rem;
+    width: 100%;
+    background-image: radial-gradient(ellipse at top left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("images/hero-background-img.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.main-text-ctr {
+    position: absolute;
+    bottom: 15rem;
+    right: 10rem;
+}
+
+.main-text-inner-ctr {
+    position: relative;
+    z-index: 1;
+}
+
+/* Keyframes main-text-inner-ctr*/
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main-text-inner-ctr {
+  animation-name: fade-in;
+  animation-duration: .5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+.main-text-ctr-before-1 {
+    height: 10rem;
+    width: 50rem;
+    background-color: #60ec9a;
+    clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+    position: absolute;
+    bottom: 5rem;
+    right: 5rem;
+}
+
+/* Keyframes main-text-ctr-before-1*/
+@keyframes left-fade-in {
+  0% {
+    right: -10rem;
+    opacity: 0;
+  }
+  100% {
+    right: 5rem;
+    opacity: 1;
+  }
+}
+
+.main-text-ctr-before-1 {
+  animation-name: left-fade-in;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+.main-text-ctr-after-1 {
+    height: 10rem;
+    width: 50rem;
+    background-color: #282828;
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+    position: absolute;
+    bottom: -5rem;
+    left: 5rem;
+}
+
+/* Keyframes main-text-ctr-after-1*/
+@keyframes right-fade-in {
+  0% {
+    left: -10rem;
+    opacity: 0;
+  }
+  100% {
+    left: 5rem;
+    opacity: 1;
+  }
+}
+
+.main-text-ctr-after-1 {
+  animation-name: right-fade-in;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+.main-text-ctr-header {
+    font-size: 5rem;
+    color: #f9f9f9;
+}
+
+.main-text-ctr-para {
+    color: #60ec9a;
+    letter-spacing: 5px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 1200px) {
     .contact-us-btn {
