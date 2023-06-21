@@ -1,0 +1,48 @@
+/* Ncert Solutions */
+.ncert-solutions-main-section-ctr {
+    text-align: center;
+    padding: 0 15rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ncert-solutions-main-section-text-ctr-header {
+    padding: 4rem;
+}
+
+.ncert-solutions-main-section-text-ctr-para {
+    padding-bottom: 8rem;
+}
+
+.ncert-solutions-subjects-ctr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ncert-solutions-subject-tile {
+    font-size: 2.5rem;
+    padding: 4rem 8rem;
+    margin: 1rem;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ncert-solutions-subject-tile:hover {
+    background-color: #dbdbdb;
+}
+
+@media screen and (max-width: 1024px) {
+    .ncert-solutions-main-section-ctr {
+        padding: 0 10rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ncert-solutions-main-section-ctr {
+        padding: 0 5rem;
+    }
+}
