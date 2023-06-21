@@ -1,0 +1,149 @@
+/* Default CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    background-color: #f9f9f9;
+    max-width: 200rem;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #282828;
+}
+
+button, i {
+    cursor: pointer;
+}
+
+/* Header */
+.header-ctr {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    box-shadow: 2px 2px 5px #dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-inner-ctr {
+    width: 100%;
+    padding: 1.6rem 5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-ctr {
+    height: 8rem;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+}
+
+.header-tabs-ctr {
+    width: 65rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.header-tabs-ctr a {
+    color: #282828;
+    padding: 1rem 0;
+}
+
+.header-tabs-ctr a:hover {
+    transition: 0.1s ease-in;
+    color: #FF6D60;
+}
+
+.contact-us-btn {
+    background-color: #282828;
+    color: #fff;
+    padding: 1.6rem 3.2rem;
+}
+
+.icon-hamburgur-menu-ctr {
+    display: none;
+    height: 3.5rem;
+    cursor: pointer;
+}
+
+.icon-hamburgur-menu {
+    height: 100%;
+    width: 100%;
+}
+
+.hidden-header-tabs-ctr {
+    padding: 1.6rem 0;
+    background-color: #282828;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.hidden-header-tabs-ctr a {
+    color: #f9f9f9;
+    display: block;
+    width: 100%;
+    padding: 1.6rem;
+}
+
+.hidden-header-tabs-ctr a:hover {
+    transition: 0.1s ease-in;
+    color: #FF6D60;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .contact-us-btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header-inner-ctr {
+        padding: 1.6rem 3rem;
+    }
+    
+    .logo-ctr {
+        height: 5rem;
+    }
+
+    .header-tabs-ctr {
+        width: 55rem;
+    }
+
+    .header-tabs-ctr a {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-tabs-ctr {
+        display: none;
+    }
+
+    .icon-hamburgur-menu-ctr {
+        display: block;
+    }
+}
