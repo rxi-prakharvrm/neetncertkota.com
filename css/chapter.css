@@ -17,10 +17,9 @@
 }
 
 .question-tile {
-    font-size: 2rem;
     text-transform: capitalize;
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 1rem;
     border-left: 8px solid #ffe135;
     border-radius: 1rem;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -47,5 +46,16 @@
 @media screen and (max-width: 768px) {
     .question-inner-ctr {
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .question-number {
+        font-size: 2rem;
+        padding: 0.8rem 1.6rem;
+    }
+
+    .question-name {
+        font-size: 1.6rem;
     }
 }
