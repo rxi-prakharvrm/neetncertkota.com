@@ -1,0 +1,33 @@
+.neet-main-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.neet-subjects-ctr {
+    width: 100%;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.neet-subject-tile {
+    background-color: #fff;
+    font-size: 2.5rem;
+    padding: 6rem 8rem;
+    margin: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.neet-subject-tile:hover {
+    background-color: #dbdbdb;
+}
+
+@media screen and (max-width: 768px) {
+    .neet-subject-tile {
+        width: 100%;
+        text-align: center;
+    }
+}
