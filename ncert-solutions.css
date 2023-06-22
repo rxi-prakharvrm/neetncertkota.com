@@ -46,3 +46,9 @@
         padding: 0 5rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .ncert-solutions-class-tile {
+        width: 100%;
+    }
+}

@@ -24,11 +24,17 @@ a {
     color: #282828;
 }
 
-button, i {
+button,
+i {
     cursor: pointer;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #282828;
 }
 
@@ -125,15 +131,15 @@ p {
 .main-section-inner-ctr {
     height: 66.4rem;
     width: 100%;
-    background-image: radial-gradient(ellipse at top left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("images/hero-background-img.jpg");
+    background-image: radial-gradient(ellipse at bottom right, rgba(0, 0, 0, 0.9), rgba(166, 234, 233, 0.5)), url("images/hero-background-img.jpg");
     background-size: cover;
     position: relative;
 }
 
 .main-text-ctr {
     position: absolute;
-    bottom: 15rem;
-    right: 10rem;
+    top: 12rem;
+    left: 10rem;
 }
 
 .main-text-inner-ctr {
@@ -143,28 +149,29 @@ p {
 
 /* Keyframes main-text-inner-ctr*/
 @keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .main-text-inner-ctr {
-  animation-name: fade-in;
-  animation-duration: .5s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: forwards;
+    animation-name: fade-in;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 .main-text-ctr-before-1 {
     height: 10rem;
     width: 50rem;
-    background-color: #60ec9a;
+    background-color: #56d386;
     clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
     position: absolute;
     bottom: 5rem;
@@ -173,24 +180,25 @@ p {
 
 /* Keyframes main-text-ctr-before-1*/
 @keyframes left-fade-in {
-  0% {
-    right: -10rem;
-    opacity: 0;
-  }
-  100% {
-    right: 5rem;
-    opacity: 1;
-  }
+    0% {
+        right: -10rem;
+        opacity: 0;
+    }
+
+    100% {
+        right: 5rem;
+        opacity: 1;
+    }
 }
 
 .main-text-ctr-before-1 {
-  animation-name: left-fade-in;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: forwards;
+    animation-name: left-fade-in;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 .main-text-ctr-after-1 {
@@ -205,33 +213,42 @@ p {
 
 /* Keyframes main-text-ctr-after-1*/
 @keyframes right-fade-in {
-  0% {
-    left: -10rem;
-    opacity: 0;
-  }
-  100% {
-    left: 5rem;
-    opacity: 1;
-  }
+    0% {
+        left: -10rem;
+        opacity: 0;
+    }
+
+    100% {
+        left: 5rem;
+        opacity: 1;
+    }
 }
 
 .main-text-ctr-after-1 {
-  animation-name: right-fade-in;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: forwards;
+    animation-name: right-fade-in;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
 .main-text-ctr-header {
-    font-size: 5rem;
+    padding: 0 3.2rem;
+    font-size: 6rem;
     color: #f9f9f9;
+    text-shadow: 0 2px 1px #747474, 
+        -1px 3px 1px #767676, 
+        -2px 5px 1px #787878, 
+        -3px 7px 1px #7a7a7a,
+        -4px 9px 1px #7f7f7f
 }
 
 .main-text-ctr-para {
-    color: #60ec9a;
+    padding: 0 3.2rem;
+    font-size: 2rem;
+    color: #f9f9f9;
     letter-spacing: 5px;
 }
 
@@ -246,7 +263,7 @@ p {
     .header-inner-ctr {
         padding: 1.6rem 3rem;
     }
-    
+
     .logo-ctr {
         height: 5rem;
     }
@@ -258,6 +275,39 @@ p {
     .header-tabs-ctr a {
         font-size: 1.4rem;
     }
+
+    .main-text-ctr-header {
+        font-size: 4rem;
+    }
+
+    .main-text-ctr-before-1, .main-text-ctr-after-1 {
+        height: 10rem;
+        width: 40rem;
+    }
+
+    @keyframes right-fade-in {
+        0% {
+            left: -10rem;
+            opacity: 0;
+        }
+
+        100% {
+            left: 0;
+            opacity: 1;
+        }
+    }
+
+    @keyframes left-fade-in {
+        0% {
+            right: -10rem;
+            opacity: 0;
+        }
+
+        100% {
+            right: 10rem;
+            opacity: 1;
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -267,5 +317,42 @@ p {
 
     .icon-hamburgur-menu-ctr {
         display: block;
+    }
+
+    .main-text-ctr {
+        left: 8rem;
+    }
+
+    .main-text-ctr-header {
+        font-size: 3.8rem;
+    }
+
+    .main-text-ctr-para {
+        font-size: 1.6rem;
+        letter-spacing: 2px;
+    }
+
+    .main-text-ctr-before-1, .main-text-ctr-after-1 {
+        height: 10rem;
+        width: 30rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .main-text-ctr {
+        left: 2rem;
+    }
+
+    .main-text-ctr-before-1 {
+        width: 25rem;
+    }
+
+    .main-text-ctr-after-1 {
+        width: 20rem;
+    }
+
+    .main-text-ctr-header, .main-text-ctr-para {
+        padding: 0;
     }
 }
