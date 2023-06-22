@@ -252,6 +252,68 @@ p {
     letter-spacing: 5px;
 }
 
+/* Footer */
+.footer {
+  background-color: #292929;
+  color: #e1e1e1;
+  text-align: center;
+  padding: 5rem 5%;
+  padding-bottom: 1rem;
+}
+
+.footer-social-media-ctr {
+  width: 100%;
+}
+
+.social-media-ctr a {
+  display: inline-block;
+  text-decoration: none;
+  color: #e1e1e1;
+  margin: 2rem;
+}
+
+.social-media-ctr a:hover {
+  color: #FF6D60;
+}
+
+.footer-links-ctr {
+  width: 20rem;
+  text-align: left;
+}
+
+.footer-link {
+  display: block;
+  text-decoration: none;
+  color: #9a9fca;
+  line-height: 4rem;
+  transition: all 0.2s ease;
+}
+
+.footer-copyright-ctr {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.copyright {
+  color: #bbb;
+  margin-bottom: 2rem;
+}
+
+.copyright-company {
+  text-decoration: none;
+  color: #FF6D60;
+}
+
+.powered-by {
+  font-size: 1.3rem;
+  color: #bbb;
+}
+
+.site-developer {
+  text-decoration: none;
+  color: #eee;
+}
+
 /* Media Queries */
 @media screen and (max-width: 1200px) {
     .contact-us-btn {
