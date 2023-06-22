@@ -1,0 +1,103 @@
+/* Question answer ctr */
+.que-ans-ctr {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  
+  .que-link {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ebebeb;
+  }
+  
+  .que-ans-inner-ctr {
+    width: 100%;
+    height: 83vh;
+    overflow: auto;
+    padding: 0 6rem;
+  }
+  
+  .que, .ans {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 3.2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+  }
+  
+  .que {
+    background-color: #ffffff;
+    border-left: 8px solid #e7f566;
+    margin: 1.6rem 0;
+  }
+  
+  .ans {
+    text-align: justify;
+    font-size: 1.8rem;
+    color: #282828;
+    line-height: 2;
+    background-color: #ffffff;
+    border-left: 8px solid #74a0e2;
+  }
+  
+  .ans div .img-ctr{
+    text-align: center;
+  }
+  
+  .ans div .img-ctr {
+    width: 100%;
+  }
+  
+  .ans div .img-ctr img {
+    width: 40%;
+    margin: 3.2rem;
+  }
+  
+  .que span, .ans span {
+    padding: 0.8rem 1.6rem;
+    margin: 0 1.6rem;
+  }
+  
+  .que span {   
+    background-color: #e7f566;
+  }
+  
+  .ans span {    
+    color: #ffffff;   
+    background-color: #74a0e2;
+  }
+  
+  .que h2, .ans div p {
+    padding: 0 3.2rem;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .que-ans-inner-ctr {
+      padding: 2rem;
+    }    
+  }
+
+  @media screen and (max-width: 768px) {
+    .que, .ans{
+      flex-direction: column;
+      padding: 1.6rem;
+    }
+  
+    .que span {
+      margin-bottom: 1.6rem;
+    }
+
+    .ans {
+        line-height: 1.5;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .ans {
+        font-size: 1.6rem;
+    }
+  }
