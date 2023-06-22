@@ -76,8 +76,8 @@ p {
 .request-question-close-btn {
     height: 3rem;
     position: absolute;
-    top: 5rem;
-    right: 5rem;
+    top: 2rem;
+    right: 2rem;
     cursor: pointer;
 }
 
@@ -338,8 +338,7 @@ p {
 .about-us-card {
     height: auto;
     width: 30%;
-    background-color: #f4f4f0;
-    text-align: center;
+    background-color: #ecece4;
 }
 
 .about-us-card-text-content {
@@ -347,6 +346,8 @@ p {
 }
 
 .about-us-card-text-header {
+    text-align: center;
+    text-transform: uppercase;
     padding: 1.6rem 0;
 }
 
@@ -483,6 +484,10 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+    .request-question-header {
+        font-size: 4rem;
+    }
+
     .header-tabs-ctr {
         display: none;
     }
@@ -523,6 +528,22 @@ p {
 }
 
 @media screen and (max-width: 425px) {
+    .request-question-close-btn {
+        height: 2.5rem;
+    }
+
+    .request-question-header {
+        font-size: 2.3rem;
+    }
+
+    .request-question-input-box {
+        padding: 0.8rem 1.6rem;
+        width: 100%;
+    }
+
+    .request-question-submit-btn {
+        width: 100%;
+    }
 
     .main-text-ctr {
         left: 2rem;

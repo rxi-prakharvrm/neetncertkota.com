@@ -13,6 +13,7 @@ function openRequestQuestionOverlay() {
     requestQuestionOverlayCtr.classList.add("flex");
     requestQuestionOverlayCtr.classList.remove("hide");
     document.body.style.overflow="hidden";
+    hiddenHeaderTabsCtr.classList.add("hide");
 }
 
 function closeRequestQuestionOverlay() {
