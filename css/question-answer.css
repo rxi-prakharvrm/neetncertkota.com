@@ -39,9 +39,17 @@
     text-align: justify;
     font-size: 1.8rem;
     color: #282828;
-    line-height: 2;
+    line-height: 1.8;
     background-color: #ffffff;
     border-left: 8px solid #74a0e2;
+  }
+
+  .ans div ol {
+    margin-left: 5rem;
+  }
+
+  .ans div ol li {
+    padding: 1rem 0;
   }
   
   .ans div .img-ctr{
