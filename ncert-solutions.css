@@ -1,5 +1,6 @@
 /* Ncert Solutions */
 .ncert-solutions-main-section-ctr {
+    height: 100%;
     text-align: center;
     padding: 0 15rem;
     display: flex;
@@ -7,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 1 0 auto;
 }
 
 .ncert-solutions-main-section-text-ctr-header {
@@ -18,6 +20,7 @@
 }
 
 .ncert-solutions-class-ctr {
+    padding-bottom: 10rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

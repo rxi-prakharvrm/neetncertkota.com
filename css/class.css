@@ -3,11 +3,12 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
 }
 
 .neet-subjects-ctr {
     width: 100%;
-    padding: 5rem;
+    padding: 10rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 

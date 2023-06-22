@@ -11,12 +11,17 @@ html {
 }
 
 body {
+    height: 100%;
+    margin: 0;
     font-family: "Open Sans", sans-serif;
     font-size: 1.6rem;
     background-color: #f9f9f9;
     max-width: 200rem;
-    margin: 0 auto;
     overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 a {
@@ -303,6 +308,7 @@ p {
     text-align: center;
     padding: 5rem 5%;
     padding-bottom: 1rem;
+    flex-shrink: 0;
 }
 
 .footer-social-media-ctr {
@@ -495,4 +501,24 @@ p {
     .copyright {
         font-size: 1.2rem;
     }
+}
+
+
+/* Custom Scrollbar */
+/* For webkit-based browsers */
+::-webkit-scrollbar {
+    width: 6px;
+    /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+    /* Light color for the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8f8f8f;
+    /* Light color for the scrollbar thumb */
+    border-radius: 1px;
+    /* Rounded corners for the scrollbar thumb */
 }
