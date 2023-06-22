@@ -238,9 +238,9 @@ p {
     padding: 0 3.2rem;
     font-size: 6rem;
     color: #f9f9f9;
-    text-shadow: 0 2px 1px #747474, 
-        -1px 3px 1px #767676, 
-        -2px 5px 1px #787878, 
+    text-shadow: 0 2px 1px #747474,
+        -1px 3px 1px #767676,
+        -2px 5px 1px #787878,
         -3px 7px 1px #7a7a7a,
         -4px 9px 1px #7f7f7f
 }
@@ -252,66 +252,110 @@ p {
     letter-spacing: 5px;
 }
 
+/* About us */
+.about-us-ctr {
+    width: 100%;
+    height: auto;
+}
+
+.about-us-header {
+    text-align: center;
+    padding: 10rem 0;
+}
+
+.about-us-card-ctr {
+    width: 100%;
+    padding: 0 10rem 15rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.about-us-card {
+    height: auto;
+    width: 30%;
+    background-color: #f4f4f0;
+    text-align: center;
+}
+
+.about-us-card-text-content {
+    padding: 3.2rem;
+}
+
+.about-us-card-text-header {
+    padding: 1.6rem 0;
+}
+
+.about-us-card-img-ctr {
+    width: 100%;
+    padding: 1.6rem;
+}
+
+.about-us-card-img {
+    width: 100%;
+}
+
+
 /* Footer */
 .footer {
-  background-color: #292929;
-  color: #e1e1e1;
-  text-align: center;
-  padding: 5rem 5%;
-  padding-bottom: 1rem;
+    background-color: #292929;
+    color: #e1e1e1;
+    text-align: center;
+    padding: 5rem 5%;
+    padding-bottom: 1rem;
 }
 
 .footer-social-media-ctr {
-  width: 100%;
+    width: 100%;
 }
 
 .social-media-ctr a {
-  display: inline-block;
-  text-decoration: none;
-  color: #e1e1e1;
-  margin: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #e1e1e1;
+    margin: 2rem;
 }
 
 .social-media-ctr a:hover {
-  color: #FF6D60;
+    color: #FF6D60;
 }
 
 .footer-links-ctr {
-  width: 20rem;
-  text-align: left;
+    width: 20rem;
+    text-align: left;
 }
 
 .footer-link {
-  display: block;
-  text-decoration: none;
-  color: #9a9fca;
-  line-height: 4rem;
-  transition: all 0.2s ease;
+    display: block;
+    text-decoration: none;
+    color: #9a9fca;
+    line-height: 4rem;
+    transition: all 0.2s ease;
 }
 
 .footer-copyright-ctr {
-  width: 100%;
-  padding: 2rem 0;
+    width: 100%;
+    padding: 2rem 0;
 }
 
 .copyright {
-  color: #bbb;
-  margin-bottom: 2rem;
+    color: #bbb;
+    margin-bottom: 2rem;
 }
 
 .copyright-company {
-  text-decoration: none;
-  color: #FF6D60;
+    text-decoration: none;
+    color: #FF6D60;
 }
 
 .powered-by {
-  font-size: 1.3rem;
-  color: #bbb;
+    font-size: 1.3rem;
+    color: #bbb;
 }
 
 .site-developer {
-  text-decoration: none;
-  color: #eee;
+    text-decoration: none;
+    color: #eee;
 }
 
 /* Media Queries */
@@ -342,7 +386,8 @@ p {
         font-size: 4rem;
     }
 
-    .main-text-ctr-before-1, .main-text-ctr-after-1 {
+    .main-text-ctr-before-1,
+    .main-text-ctr-after-1 {
         height: 10rem;
         width: 40rem;
     }
@@ -394,9 +439,21 @@ p {
         letter-spacing: 2px;
     }
 
-    .main-text-ctr-before-1, .main-text-ctr-after-1 {
+    .main-text-ctr-before-1,
+    .main-text-ctr-after-1 {
         height: 10rem;
         width: 30rem;
+    }
+
+    .about-us-card-ctr {
+        padding: 0 5rem 10rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-card {
+        width: 100%;
+        margin: 2rem;
     }
 }
 
@@ -414,7 +471,28 @@ p {
         width: 20rem;
     }
 
-    .main-text-ctr-header, .main-text-ctr-para {
+    .main-text-ctr-header,
+    .main-text-ctr-para {
         padding: 0;
+    }
+
+    .about-us-header {
+        font-size: 2.2rem;
+        padding: 5rem 0;
+    }
+
+    .about-us-card-ctr {
+        padding: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-card {
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .copyright {
+        font-size: 1.2rem;
     }
 }
