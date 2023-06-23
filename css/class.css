@@ -1,9 +1,10 @@
 .neet-main-section {
+    height: 45rem;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -11,12 +12,10 @@
     text-align: center;
     font-size: 3.6rem;
     font-weight: 400;
-    padding: 10rem 2rem 0;
 }
 
 .neet-subjects-ctr {
     width: 100%;
-    padding: 10rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
@@ -48,8 +47,7 @@
     }
 
     .class-main-header {
-        font-size: 3rem;
-        padding: 10rem 2rem 5rem;        
+        font-size: 3rem;      
     }
 }
 
