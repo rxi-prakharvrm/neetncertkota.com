@@ -45,6 +45,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Request Question Overlay -->
+    <div class="request-question-overlay-ctr hide">
+        <img src="../../../../icons/close.png" alt="" class="request-question-close-btn" onclick="closeRequestQuestionOverlay();">
+        <div class="request-question-overlay">
+            <h1 class="request-question-header">Request Question</h1>
+            <div class="request-question-input-ctr">
+                <input type="text" placeholder="Your Name..." name="" id="" class="request-question-input-box request-question-input-name ">
+                <input type="email" placeholder="Your Email..." name="" id="" class="request-question-input-box request-question-input-email">
+                <textarea placeholder="Type your query here..." class="request-question-input-box request-question-input-query" name="" id="" cols="20" rows="3"></textarea>
+                <a href="" class="request-question-submit-btn">Submit</a>
+            </div>
+        </div>
+    </div>
+
     <!-- Header -->
     <header class="header-ctr">
         <div class="header-inner-ctr">
@@ -53,7 +67,7 @@
                 <a href="../../../../index.html" class="header-tab">HOME</a>
                 <a href="../../../../blog.html" class="header-tab">BLOG</a>
                 <a href="../../../../ncert-solutions.html" class="header-tab">NCERT SOLUTIONS</a>
-                <a href="../../../../request-question.html" class="header-tab">REQUEST QUESTION</a>
+                <a href="#" class="header-tab" onclick="openRequestQuestionOverlay();">REQUEST QUESTION</a>
                 <a href="../../../../index.html#about-us" class="header-tab">ABOUT US</a>
             </div>
             <a href="../../../../contact-us.html" class="contact-us-btn">CONTACT US</a>
@@ -66,7 +80,7 @@
         <a href="../../../../index.html" class="header-tab">HOME</a>
         <a href="../../../../blog.html" class="header-tab">BLOG</a>
         <a href="../../../../ncert-solutions.html" class="header-tab">NCERT SOLUTIONS</a>
-        <a href="../../../../request-question.html" class="header-tab">REQUEST QUESTION</a>
+        <a href="#" class="header-tab" onclick="openRequestQuestionOverlay();">REQUEST QUESTION</a>
         <a href="../../../../index.html#about-us" class="header-tab">ABOUT US</a>
         <a href="../../../../contact-us.html" class="header-tab">CONTACT US</a>
     </div>
