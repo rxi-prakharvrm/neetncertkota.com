@@ -39,6 +39,10 @@
     margin-right: 2rem;
 }
 
+.chapter-name {
+    font-weight: 400;
+}
+
 .chapter-tile:hover {
     color: #FF6D60;
 }

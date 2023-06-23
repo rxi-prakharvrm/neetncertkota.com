@@ -39,6 +39,10 @@
     margin-right: 2rem;
 }
 
+.question-name {
+    font-weight: 400;
+}
+
 .question-tile:hover {
     color: #FF6D60;
 }
