@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equip="author" content="Akash Verma">
+    <meta http-equip="author" content="Prakhar Verma">
+    <meta name="description" content="">
+    <meta name="Keywords" content="">
+
+    <!-- Title -->
+    <title>NEETNCERTKOTA - Simplest Explanation</title>
+
+    <!-- External css stylesheet -->
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../css/chapter.css">
+
+    <!-- AOS (Animaion on scroll functionality) -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+
+    <!-- Favicon and Apple touch icon -->
+    <link rel="icon" href="./res/images/favicon.png" type="image/png" sizes="16x16">
+    <link rel="apple-touch-icon image_src" href="favicon.png">
+
+    <!-- Adding external google fonts and font awesome cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Poppins Font Family CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- MonteCarlo Font Family CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Flamenco Font Family CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap" rel="stylesheet">  
+    
+    <!-- Open Sans Font Family CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Request Question Overlay -->
+    <div class="request-question-overlay-ctr hide">
+        <img src="../../../icons/close.png" alt="" class="request-question-close-btn" onclick="closeRequestQuestionOverlay();">
+        <div class="request-question-overlay">
+            <h1 class="request-question-header">Request Question</h1>
+            <div class="request-question-input-ctr">
+                <input type="text" placeholder="Your Name..." name="" id="" class="request-question-input-box request-question-input-name ">
+                <input type="email" placeholder="Your Email..." name="" id="" class="request-question-input-box request-question-input-email">
+                <textarea placeholder="Type your query here..." class="request-question-input-box request-question-input-query" name="" id="" cols="20" rows="3"></textarea>
+                <a href="" class="request-question-submit-btn">Submit</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header-ctr">
+        <div class="header-inner-ctr">
+            <a href="../../../index.html" class="logo-ctr"><img src="../../../images/logo-png.png" alt="logo" class="logo"></a>
+            <div class="header-tabs-ctr">
+                <a href="../../../index.html" class="header-tab">HOME</a>
+                <a href="../../../blog.html" class="header-tab">BLOG</a>
+                <a href="../../../ncert-solutions.html" class="header-tab">NCERT SOLUTIONS</a>
+                <a href="#" class="header-tab" onclick="openRequestQuestionOverlay();">REQUEST QUESTION</a>
+                <a href="../../../index.html#about-us" class="header-tab">ABOUT US</a>
+            </div>
+            <a href="../../../contact-us.html" class="contact-us-btn">CONTACT US</a>
+            <div class="icon-hamburgur-menu-ctr" onclick="toggleHiddenHeaderTabsCtr();">
+                <img src="../../../icons/hamburgur-menu.png" alt="hamburgur-menu" class="icon-hamburgur-menu">
+            </div>
+        </header>
+    </div>
+    <div class="hidden-header-tabs-ctr hide">
+        <a href="../../../index.html" class="header-tab">HOME</a>
+        <a href="../../../blog.html" class="header-tab">BLOG</a>
+        <a href="../../../ncert-solutions.html" class="header-tab">NCERT SOLUTIONS</a>
+        <a href="#" class="header-tab" onclick="openRequestQuestionOverlay();">REQUEST QUESTION</a>
+        <a href="../../../index.html#about-us" class="header-tab">ABOUT US</a>
+        <a href="../../../contact-us.html" class="header-tab">CONTACT US</a>
+    </div>
+
+    <!-- Questions -->
+    <div class="question-ctr">
+        <div class="question-inner-ctr">
+            <a href="01-some-basic-concepts-of-chemistry/01-why-are-living-organisms-classified.html" class="question-tile">
+                <span class="question-number">01</span>
+                <h3 class="question-name">Why are living organisms classified?</h3>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer" id="footer">            
+        <div class="social-media-ctr">
+            <a target="_blank" href="https://www.facebook.com/neetncertkota"><i class="fa fa-facebook fa-2x"></i></a>
+            <a target="_blank" href="https://www.instagram.com/neetncertkota"><i class="fa fa-instagram fa-2x"></i></a>
+            <a target="_blank" href="https://t.me/neetncertkota"><i class="fa fa-telegram fa-2x"></i></a>
+            <a target="_blank" href="https://www.youtube.com/@neetncertkota"><i class="fa fa-youtube fa-2x"></i></i></a>
+        </div>
+        <div class="footer-copyright-ctr">
+            <p class="copyright">© 2023-24<span class="copyright-current-year"></span> <a class="copyright-company" href="http://www.neetncertkota.com">NEETNCERTKOTA</a> PVT. LTD. All rights reserved.</p>
+        </div>
+    </div>
+    
+    <!-- external script tag -->
+    <script src="../../../index.js"></script>
+    <script src="../../../javascript/subject.js"></script>
+</body>
+</html>
