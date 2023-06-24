@@ -376,8 +376,11 @@ p {
 
 /* About us */
 .about-us-ctr {
+    background-color: #ebecf8;
+    padding-bottom: 10rem;
     width: 100%;
     height: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
 .about-us-header {
@@ -396,7 +399,7 @@ p {
 .about-us-card {
     height: auto;
     width: 30%;
-    background-color: #ecece4;
+    background-color: #ffffff;
 }
 
 .about-us-card-text-content {
@@ -416,6 +419,35 @@ p {
 
 .about-us-card-img {
     width: 100%;
+}
+
+/* happy-learning-section */
+.happy-learning-ctr {
+    width: 100%;
+    padding: 5rem;
+}
+
+.happy-learning-inner-ctr {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.happy-learning-img-ctr {
+    width: 40%;
+}
+
+.happy-learning-img {
+    width: 100%;
+}
+
+.happy-learning-header {
+    font-family: 'Great Vibes', cursive;
+    font-size: 6rem;
+    color: #e998aa;
+    padding: 10rem 0;
 }
 
 
@@ -632,7 +664,20 @@ p {
 
     .about-us-card {
         width: 100%;
-        margin: 2rem;
+        margin: 3rem;
+    }
+
+    .about-us-card-text-para {
+        font-size: 1.4rem;
+    }
+
+    /* happy learning */
+    .happy-learning-header {
+        font-size: 4rem;
+    }
+
+    .happy-learning-img-ctr {
+        width: 50%;
     }
 }
 
@@ -673,7 +718,7 @@ p {
 
     /* what makes us different */
     .what-makes-us-different-ctr {
-        padding: 10rem 2rem 5rem;
+        padding: 10rem 3rem 5rem;
     }
 
     .what-makes-us-different-header {
@@ -684,20 +729,34 @@ p {
         padding: 5rem 3rem;
     }
 
+    .about-us-ctr {
+        padding-bottom: 15rem;
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    }
+
     .about-us-header {
         font-size: 2.2rem;
         padding: 5rem 0;
     }
 
     .about-us-card-ctr {
-        padding: 2rem;
+        padding: 3rem;
         flex-direction: column;
         align-items: center;
     }
 
     .about-us-card {
         width: 100%;
-        margin: 1rem;
+        margin: 2rem;
+    }
+
+    /* happy learning */
+    .happy-learning-header {
+        font-size: 3rem;
+    }
+
+    .happy-learning-img-ctr {
+        width: 100%;
     }
 
     .copyright {
