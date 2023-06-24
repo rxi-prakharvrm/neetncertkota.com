@@ -572,6 +572,57 @@ p {
         width: 30rem;
     }
 
+    /* What makes us different */
+    .what-makes-us-different-ctr {
+        padding: 10rem 5rem 5rem;
+    }
+
+    .what-makes-us-different-header {
+        font-size: 2.5rem;
+    }
+
+    .what-makes-us-different-upper-row, .what-makes-us-different-lower-row {
+        align-items: center;
+        padding: 5rem; 
+    }
+
+    .what-makes-us-different-upper-row {
+        flex-direction: column-reverse;
+    }
+
+    .what-makes-us-different-lower-row {
+        flex-direction: column;
+    }
+
+    .no-sign-up-ctr, .two-types-answer-ctr {
+        width: 100%;
+    }
+
+    .what-makes-us-different-img-ctr {
+        width: 50%;
+        padding-bottom: 5rem;
+    }
+
+    .what-makes-us-different-img-ctr:first-child {
+        margin-right: 0;
+    }
+
+    .what-makes-us-different-img-ctr:last-child {
+        margin-left: 0;
+    }
+
+    .no-sign-up-header, .two-types-answer-header {
+        font-size: 1.6rem;
+    }
+
+    .no-sign-up-para, .two-types-answer-para {
+        font-size: 1.4rem;
+    }
+
+    .about-us-header {
+        padding-bottom: 5rem;
+    }
+
     .about-us-card-ctr {
         padding: 0 5rem 10rem;
         flex-direction: column;
@@ -617,6 +668,19 @@ p {
     .main-text-ctr-header,
     .main-text-ctr-para {
         padding: 0;
+    }
+
+    /* what makes us different */
+    .what-makes-us-different-ctr {
+        padding: 10rem 2rem 5rem;
+    }
+
+    .what-makes-us-different-header {
+        font-size: 2.2rem;
+    }
+
+    .what-makes-us-different-upper-row, .what-makes-us-different-lower-row {
+        padding: 5rem 3rem;
     }
 
     .about-us-header {
