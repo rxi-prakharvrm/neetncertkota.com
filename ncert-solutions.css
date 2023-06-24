@@ -2,7 +2,7 @@
 .ncert-solutions-main-section-ctr {
     text-align: center;
     height: 100%;
-    padding: 0 15rem;
+    padding: 5rem 15rem;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -54,5 +54,16 @@
 @media screen and (max-width: 425px) {
     .ncert-solutions-class-tile {
         width: 100%;
+    }
+
+    .ncert-solutions-main-section-text-ctr-header {
+        font-size: 2.5rem;
+        padding: 4rem;
+    }
+    
+    .ncert-solutions-main-section-text-ctr-para {
+        font-size: 1.4rem;
+        text-align: justify;
+        padding-bottom: 8rem;
     }
 }

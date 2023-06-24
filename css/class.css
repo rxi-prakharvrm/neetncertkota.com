@@ -1,5 +1,6 @@
 .neet-main-section {
     width: 100%;
+    padding: 5rem 0;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -11,7 +12,7 @@
     text-align: center;
     font-size: 3.6rem;
     font-weight: 400;
-    padding: 3rem 0;
+    padding: 5rem 0;
 }
 
 .neet-subjects-ctr {
@@ -35,7 +36,7 @@
 
 @media screen and (max-width: 768px) {
     .neet-subjects-ctr {
-        padding: 2rem;
+        padding: 3rem;
     }
 
     .neet-subject-tile {
@@ -47,12 +48,14 @@
     }
 
     .class-main-header {
+        padding-left: 2rem;
+        padding-right: 2rem;
         font-size: 3rem;      
     }
 }
 
 @media screen and (max-width: 425px) {
     .class-main-header {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 }
