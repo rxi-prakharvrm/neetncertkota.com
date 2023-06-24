@@ -2,7 +2,6 @@
 const hiddenHeaderTabsCtr = document.querySelector(".hidden-header-tabs-ctr");
 const requestQuestionOverlayCtr = document.querySelector(".request-question-overlay-ctr");
 
-
 // Header
 function toggleHiddenHeaderTabsCtr() {
     hiddenHeaderTabsCtr.classList.toggle("hide");

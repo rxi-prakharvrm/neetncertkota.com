@@ -43,7 +43,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap" rel="stylesheet">
 
     <!-- Open Sans Font Family CDN -->
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -74,7 +76,19 @@
                 <a href="blog.html" class="header-tab">BLOG</a>
                 <a href="ncert-solutions.html" class="header-tab">NCERT SOLUTIONS</a>
                 <a href="#" class="header-tab" onclick="openRequestQuestionOverlay();">REQUEST QUESTION</a>
-                <a href="#about-us" class="header-tab">ABOUT US</a>
+
+                <!-- dropdown menu -->
+                <ul class="header-dropdown-ctr">
+                    <li class="header-dropdown">
+                        <a href="javascript:void(0)" class="header-dropbtn">INTERVIEW SHORTS <i
+                                class="fa fa-angle-down fa-lg"></i></a>
+                        <div class="header-dropdown-content">
+                            <a href="interview-shorts.html" class="header-dropdown-link">INTERVIEW SHORTS</a>
+                            <a href="inspiring-stories.html" class="header-dropdown-link">INSPIRING STORIES</a>
+                            <a href="#about-us" class="header-dropdown-link">ABOUT US</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
             <a href="contact-us.html" class="contact-us-btn">CONTACT US</a>
             <div class="icon-hamburgur-menu-ctr" onclick="toggleHiddenHeaderTabsCtr();">
@@ -87,8 +101,20 @@
         <a href="blog.html" class="header-tab">BLOG</a>
         <a href="ncert-solutions.html" class="header-tab">NCERT SOLUTIONS</a>
         <a class="header-tab" onclick="openRequestQuestionOverlay();">REQUEST QUESTION</a>
-        <a href="#about-us" class="header-tab">ABOUT US</a>
-        <a href="contact-us.html" class="header-tab">CONTACT US</a>
+
+        <!-- dropdown menu -->
+        <ul class="header-dropdown-ctr">
+            <li class="header-dropdown">
+                <a href="javascript:void(0)" class="header-dropbtn">INTERVIEW SHORTS <i
+                        class="fa fa-angle-down fa-lg"></i></a>
+                <div class="header-dropdown-content hidden-header-dropdown-content">
+                    <a href="interview-shorts.html" class="header-dropdown-link">INTERVIEW SHORTS</a>
+                    <a href="inspiring-stories.html" class="header-dropdown-link">INSPIRING STORIES</a>
+                    <a href="#about-us" class="header-dropdown-link" onclick="toggleHiddenHeaderTabsCtr();">ABOUT US</a>
+                    <a href="#contact-us" class="header-dropdown-link">CONTACT US</a>
+                </div>
+            </li>
+        </ul>
     </div>
 
     <!-- Hero Section -->
@@ -112,26 +138,30 @@
             <div class="what-makes-us-different-upper-row">
                 <div class="no-sign-up-ctr">
                     <h3 class="no-sign-up-header">Sign Up Not Required To Explore Our Content</h3>
-                    <p class="no-sign-up-para">We don't force you to sign up or give your details before letting you see our
+                    <p class="no-sign-up-para">We don't force you to sign up or give your details before letting you see
+                        our
                         content like others.<br><br>
-    
-                        You can visit our site freely and enjoy solving and learning question if you want to subscribe our
+
+                        You can visit our site freely and enjoy solving and learning question if you want to subscribe
+                        our
                         Interview-shorts and inspire story blog then by your wish you can subscribe at the end of the
                         page.<br><br>
-    
+
                         Our moto is only to save your time for study and help you understand the depth of question.<br>
                     </p>
                 </div>
                 <div class="what-makes-us-different-img-ctr"><img src="images/no-sign-up.png" alt="No Sign Up"></div>
             </div>
             <div class="what-makes-us-different-lower-row">
-                <div class="what-makes-us-different-img-ctr"><img src="images/two-different-answer.png" alt="Two different answer"></div>
+                <div class="what-makes-us-different-img-ctr"><img src="images/two-different-answer.png"
+                        alt="Two different answer"></div>
                 <div class="two-types-answer-ctr">
                     <h3 class="two-types-answer-header">We Provide you two types of Explanations</h3>
                     <p class="two-types-answer-para">
                         A: short one word answer <br>
                         B: Long explaination.<br><br>
-                        This help you save your time if you just want to confirm the final answer and already know the depth of concept..
+                        This help you save your time if you just want to confirm the final answer and already know the
+                        depth of concept..
                     </p>
                 </div>
             </div>
@@ -177,7 +207,8 @@
     <!-- Happy Learning Section -->
     <div class="happy-learning-ctr">
         <div class="happy-learning-inner-ctr">
-            <div class="happy-learning-img-ctr"><img src="images/happy-learning.png" alt="" class="happy-learning-img"></div>
+            <div class="happy-learning-img-ctr"><img src="images/happy-learning.png" alt="" class="happy-learning-img">
+            </div>
             <h2 class="happy-learning-header">Happy Learning!!!</h2>
         </div>
     </div>
