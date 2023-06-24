@@ -210,8 +210,9 @@ p {
 }
 
 .icon-hamburgur-menu-ctr {
-    display: none;
+    width: 3.5rem;
     height: 3.5rem;
+    display: none;
     cursor: pointer;
 }
 
