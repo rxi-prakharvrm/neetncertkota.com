@@ -62,27 +62,54 @@
     <!-- Header -->
     <header class="header-ctr">
         <div class="header-inner-ctr">
-            <a href="../../../../index.html" class="logo-ctr"><img src="../../../../images/logo-png.png" alt="logo" class="logo"></a>
+            <a href="/index.html" class="logo-ctr"><img src="../../../../images/logo-png.png" alt="logo" class="logo"></a>
             <div class="header-tabs-ctr">
-                <a href="../../../../index.html" class="header-tab">HOME</a>
-                <a href="../../../../blog.html" class="header-tab">BLOG</a>
-                <a href="../../../../ncert-solutions.html" class="header-tab">NCERT SOLUTIONS</a>
+                <a href="index.html" class="header-tab">HOME</a>
+                <a href="blog.html" class="header-tab">BLOG</a>
+                <a href="ncert-solutions.html" class="header-tab">NCERT SOLUTIONS</a>
                 <a href="#" class="header-tab" onclick="openRequestQuestionOverlay();">REQUEST QUESTION</a>
-                <a href="../../../../index.html#about-us" class="header-tab">ABOUT US</a>
+
+                <!-- dropdown menu -->
+                <ul class="header-dropdown-ctr">
+                    <li class="header-dropdown">
+                        <a href="javascript:void(0)" class="header-dropbtn">INTERVIEW SHORTS <i
+                                class="fa fa-angle-down fa-lg"></i></a>
+                        <div class="header-dropdown-content">
+                            <a href="interview-shorts.html" class="header-dropdown-link">INTERVIEW SHORTS</a>
+                            <a href="inspiring-stories.html" class="header-dropdown-link">INSPIRING STORIES</a>
+                            <a href="/index.html#about-us" class="header-dropdown-link">ABOUT US</a>
+                            <a href="/index.html#contact-us" class="header-dropdown-link">CONTACT US</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <a href="../../../../#contact-us" class="contact-us-btn">CONTACT US</a>
+            <a href="#contact-us" class="contact-us-btn">CONTACT US</a>
             <div class="icon-hamburgur-menu-ctr" onclick="toggleHiddenHeaderTabsCtr();">
                 <img src="../../../../icons/hamburgur-menu.png" alt="hamburgur-menu" class="icon-hamburgur-menu">
             </div>
-        </header>
-    </div>
+        </div>
+    </header>
+    
+    <!-- Hidden Tabs Section -->
     <div class="hidden-header-tabs-ctr hide">
-        <a href="../../../../index.html" class="header-tab">HOME</a>
-        <a href="../../../../blog.html" class="header-tab">BLOG</a>
-        <a href="../../../../ncert-solutions.html" class="header-tab">NCERT SOLUTIONS</a>
-        <a href="#" class="header-tab" onclick="openRequestQuestionOverlay();">REQUEST QUESTION</a>
-        <a href="../../../../index.html#about-us" class="header-tab">ABOUT US</a>
-        <a href="../../../../#contact-us" class="header-tab">CONTACT US</a>
+        <a href="index.html" class="header-tab">HOME</a>
+        <a href="blog.html" class="header-tab">BLOG</a>
+        <a href="ncert-solutions.html" class="header-tab">NCERT SOLUTIONS</a>
+        <a class="header-tab" onclick="openRequestQuestionOverlay();">REQUEST QUESTION</a>
+
+        <!-- dropdown menu -->
+        <ul class="header-dropdown-ctr">
+            <li class="header-dropdown">
+                <a href="javascript:void(0)" class="header-dropbtn">INTERVIEW SHORTS <i
+                        class="fa fa-angle-down fa-lg"></i></a>
+                <div class="header-dropdown-content hidden-header-dropdown-content">
+                    <a href="interview-shorts.html" class="header-dropdown-link">INTERVIEW SHORTS</a>
+                    <a href="inspiring-stories.html" class="header-dropdown-link">INSPIRING STORIES</a>
+                    <a href="/index.html#about-us" class="header-dropdown-link" onclick="toggleHiddenHeaderTabsCtr();">ABOUT US</a>
+                    <a href="/index.html#contact-us" class="header-dropdown-link" onclick="toggleHiddenHeaderTabsCtr();">CONTACT US</a>
+                </div>
+            </li>
+        </ul>
     </div>
     
     <div class="que-ans-ctr">
