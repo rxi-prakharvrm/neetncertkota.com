@@ -316,6 +316,63 @@ p {
     letter-spacing: 5px;
 }
 
+/* What makes us different from others */
+.what-makes-us-different-ctr {
+    width: 100%;
+    padding: 10rem;
+}
+
+.what-makes-us-different-inner-ctr {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.what-makes-us-different-upper-row, .what-makes-us-different-lower-row {
+    width: 100%;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.what-makes-us-different-img-ctr {
+    width: 30%;
+}
+
+.what-makes-us-different-img-ctr img {
+    width: 100%;
+}
+
+.what-makes-us-different-img-ctr:first-child {
+    margin-right: 10rem;
+}
+
+.what-makes-us-different-img-ctr:last-child {
+    margin-left: 10rem;
+}
+
+.what-makes-us-different-header {
+    text-align: center;
+    padding-bottom: 5rem;    
+}
+
+.no-sign-up-ctr, .two-types-answer-ctr {
+    width: 70%;
+}
+
+.no-sign-up-header, .two-types-answer-header {
+    text-transform: capitalize;
+    padding-bottom: 3rem;
+}
+
 /* About us */
 .about-us-ctr {
     width: 100%;
