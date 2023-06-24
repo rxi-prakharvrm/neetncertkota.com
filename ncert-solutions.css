@@ -28,15 +28,16 @@
 }
 
 .ncert-solutions-class-tile {
+    width: 20rem;
+    padding: 3rem 0;
     font-size: 2.5rem;
-    padding: 4rem 8rem;
     margin: 1rem;
     background-color: #fff;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .ncert-solutions-class-tile:hover {
-    background-color: #dbdbdb;
+    color: #FF6D60;
 }
 
 @media screen and (max-width: 1024px) {
