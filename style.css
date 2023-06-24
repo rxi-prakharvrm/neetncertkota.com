@@ -193,11 +193,12 @@ p {
 
 /* Main Section */
 .main-section-inner-ctr {
-    height: 66.4rem;
+    height: 70rem;
     width: 100%;
     background-image: radial-gradient(ellipse at bottom right, rgba(0, 0, 0, 0.9), rgba(166, 234, 233, 0.5)), url("images/hero-background-img.jpg");
     background-size: cover;
     position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 90% 95%, 80% 100%, 70% 95%, 60% 100%, 50% 95%, 40% 100%, 30% 95%, 20% 100%, 10% 95%, 0 100%);
 }
 
 .main-text-ctr {
