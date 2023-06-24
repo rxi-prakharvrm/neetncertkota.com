@@ -42,6 +42,7 @@ h4,
 h5,
 h6 {
     color: #283838;
+    text-transform: capitalize;
 }
 
 p {
@@ -385,7 +386,7 @@ p {
 .what-makes-us-different-upper-row,
 .what-makes-us-different-lower-row {
     width: 100%;
-    border-bottom: 1px solid #dbdbdb;
+    border-bottom: 1px solid #ebebeb;
     padding: 10rem;
     display: flex;
     flex-wrap: nowrap;
@@ -393,7 +394,7 @@ p {
 }
 
 .what-makes-us-different-img-ctr {
-    width: 30%;
+    width: 20%;
 }
 
 .what-makes-us-different-img-ctr img {
