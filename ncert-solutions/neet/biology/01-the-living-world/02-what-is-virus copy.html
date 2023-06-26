@@ -15,8 +15,9 @@
     <title>NEETNCERTKOTA - Simplest Explanation</title>
 
     <!-- External css stylesheet -->
-    <link rel="stylesheet" href="../../../style.css">
-    <link rel="stylesheet" href="../../../css/chapter.css">
+    <link rel="stylesheet" href="../../../../style.css">
+    <link rel="stylesheet" href="../../../../css/chapter.css">
+    <link rel="stylesheet" href="../../../../css/question-answer.css">
 
     <!-- AOS (Animaion on scroll functionality) -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
@@ -38,12 +39,14 @@
 <body>
     <!-- Request Question Overlay -->
     <div class="request-question-overlay-ctr hide">
-        <img src="../../../icons/close.png" alt="" class="request-question-close-btn" onclick="closeRequestQuestionOverlay();">
+        <img src="../../../../icons/close.png" alt="" class="request-question-close-btn" onclick="closeRequestQuestionOverlay();">
         <div class="request-question-overlay">
             <h1 class="request-question-header">Request Question</h1>
             <div class="request-question-input-ctr">
-                <input type="text" placeholder="Your Name..." name="" id="" class="request-question-input-box request-question-input-name ">
-                <input type="email" placeholder="Your Email..." name="" id="" class="request-question-input-box request-question-input-email">
+                <input type="text" placeholder="Your Name..." name="" id=""
+                    class="request-question-input-box request-question-input-name ">
+                <input type="email" placeholder="Your Email..." name="" id=""
+                    class="request-question-input-box request-question-input-email">
                 <input type="text" placeholder="Type your query here..." class="request-question-input-box request-question-input-query">
                 <a href="" class="request-question-submit-btn">Submit</a>
             </div>
@@ -53,7 +56,7 @@
     <!-- Header -->
     <header class="header-ctr">
         <div class="header-inner-ctr">
-            <a href="/index.html" class="logo-ctr"><img src="../../../images/logo-png.png" alt="logo" class="logo"></a>
+            <a href="/index.html" class="logo-ctr"><img src="../../../../images/logo-png.png" alt="logo" class="logo"></a>
             <div class="header-tabs-ctr">
                 <a href="/index.html" class="header-tab">HOME</a>
                 <a href="/blog.html" class="header-tab">BLOG</a>
@@ -76,7 +79,7 @@
             </div>
             <a href="/index.html#contact-us" class="contact-us-btn">CONTACT US</a>
             <div class="icon-hamburgur-menu-ctr" onclick="toggleHiddenHeaderTabsCtr();">
-                <img src="../../../icons/hamburgur-menu.png" alt="hamburgur-menu" class="icon-hamburgur-menu">
+                <img src="../../../../icons/hamburgur-menu.png" alt="hamburgur-menu" class="icon-hamburgur-menu">
             </div>
         </div>
     </header>
@@ -102,41 +105,25 @@
             </li>
         </ul>
     </div>
-
-    <!-- Questions -->
-    <div class="question-ctr">
-        <div class="question-inner-ctr">
-            <a href="../biology/01-the-living-world/01-why-are-living-organisms-classified.html" class="question-tile">
-                <span class="question-number">01</span>
-                <h3 class="question-name">Why are living organisms classified?</h3>
-            </a>
-            <a href="../biology/01-the-living-world/02-what-is-virus.html" class="question-tile">
-                <span class="question-number">02</span>
-                <h3 class="question-name">What is Virus?</h3>
-            </a>
-            <a href="../biology/01-the-living-world/03-what-is-endoplasmic-reticulum.html" class="question-tile">
-                <span class="question-number">03</span>
-                <h3 class="question-name">What is endoplasmic reticulum?</h3>
-            </a>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <div class="footer" id="footer">            
-        <div class="social-media-ctr" id="contact-us">
-            <a target="_blank" href="https://www.facebook.com/neetncertkota"><i class="fa fa-facebook fa-2x"></i></a>
-            <a target="_blank" href="https://www.instagram.com/neetncertkota"><i class="fa fa-instagram fa-2x"></i></a>
-            <a target="_blank" href="https://t.me/neetncertkota"><i class="fa fa-telegram fa-2x"></i></a>
-            <a target="_blank" href="https://www.youtube.com/@neetncertkota"><i class="fa fa-youtube fa-2x"></i></i></a>
-        </div>
-        <div class="footer-copyright-ctr">
-            <p class="copyright">© <span class="copyright-current-year"></span> <a class="copyright-company"
-                    href="http://www.neetncertkota.com">NEETNCERTKOTA</a> All rights reserved.</p>
+    
+    <div class="que-ans-ctr">
+        <div class="que-ans-inner-ctr">
+            <div class="que que-1"><span>Question</span><h2>What is Virus?</h2></div>
+            <div class="ans ans-1">
+                <span>Solution </span>
+                <div>
+                    <!-- <div class="img-ctr">
+                        <img src="../../../../images/living-organisms.png" alt="living-organisms">
+                    </div> -->
+                    <p>
+                        Living organisms are classified to organize and understand the vast diversity of life on Earth. Classification provides a systematic framework for identifying, categorizing, and studying different species based on their shared characteristics and evolutionary relationships. The primary reasons for classifying living organisms are:        
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
     
     <!-- external script tag -->
-    <script src="../../../index.js"></script>
-    <script src="../../../javascript/subject.js"></script>
+    <script src="../../../../index.js"></script>
 </body>
 </html>
